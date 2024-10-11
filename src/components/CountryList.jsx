@@ -4,7 +4,6 @@ import {
   ListItemAvatar,
   ListItemText,
 } from "@mui/material";
-import { Circle, CheckBox, CheckBoxOutlineBlank } from "@mui/icons-material";
 import natoCountries from "../assets/countries.json";
 
 const CountryList = ({ selectedCountries, onSelect }) => {
@@ -16,7 +15,8 @@ const CountryList = ({ selectedCountries, onSelect }) => {
         display: "flex",
         flexFlow: "column wrap",
         gap: "5px",
-        height: 600,
+        maxHeight: { xs: "calc(100dvh - 10rem)", md: "calc(100dvh - 8rem)" },
+        minHeight: { xs: "calc(100dvh - 10rem)", md: "calc(100dvh - 8rem)" },
         overflow: "auto",
       }}
     >

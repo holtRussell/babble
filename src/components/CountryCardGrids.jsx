@@ -18,9 +18,6 @@ const CountryCardGrids = ({ selectedCountries, onSelect }) => {
           width: 130,
           "&:hover .flag": { opacity: 0.8 },
           transition: "filter 0.2s ease-in-out",
-          filter: isSelected
-            ? "drop-shadow(0 0 2px orange) drop-shadow(0 0 6px orange)"
-            : "",
         }}
       >
         <CardActionArea onClick={() => onSelect(i)}>
@@ -33,7 +30,9 @@ const CountryCardGrids = ({ selectedCountries, onSelect }) => {
               opacity: isSelected ? 1 : 0.4,
             }}
           />
-          <CardContent sx={{ p: 0.5 }}>
+          <CardContent
+            sx={{ p: 0.5, backgroundColor: isSelected ? "#09f5" : "" }}
+          >
             <Typography gutterBottom variant="subtitle" component="div">
               {country}
             </Typography>
