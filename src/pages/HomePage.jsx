@@ -58,26 +58,22 @@ function HomePage() {
       dangerouslyAllowBrowser: import.meta.env.MODE === "development",
     });
 
-    const firstCountry = selectedCountries[0]; // select the first country in the list
-
-    const prompt = `Please translate the following message into ${firstCountry.language}: ${textToTranslate}`;
-    const messages = [{ role: "user", content: prompt }];
-
-    // Sending the Prompt to Openai's API
     try {
-      const completion = await openai.chat.completions.create({
-        model: OPENAI_API_MODEL,
-        messages,
-      });
-      // Recieving a response
-      console.log("parsing response");
-      console.dir(completion);
-      const aiResponse = completion.choices[0].message.content;
+      const results = await Promise.all(
+        selectedCountries.map((country) => {
+          const prompt = `Please translate the following message into ${country.language[0].name}: ${textToTranslate}`;
+          const messages = [{ role: "user", content: prompt }];
+
+          return openai.chat.completions.create({
+            model: OPENAI_API_MODEL,
+            messages,
+          });
+        })
+      );
 
       // for now, I'll just print the response. Later, I'll return it to an array in a builder function.
-      console.log(`response recieved: ${aiResponse}`);
-      setTranslatedText(aiResponse);
-      return aiResponse;
+      console.log(results);
+      // setTranslatedText(aiResponse);
     } catch (e) {
       console.error(e);
     }
@@ -86,24 +82,27 @@ function HomePage() {
   const getGoogleTranslation = async () => {
     // provide language and
     // TODO -- access language abbreviation of selected language
-    const firstCountry = selectedCountries[0];
-    const myBody = {
-      source: "en",
-      target: "ru",
-      q: textToTranslate,
-      mimeType: "text/plain",
-    };
     try {
-      const response = await fetch(GOOGLE_API_LINK, {
-        method: "POST",
-        body: myBody,
-        headers: {
-          key: GOOGLE_API_KEY,
-        },
-      });
-      const jsonResponse = response.json;
-      console.log(jsonResponse);
-      setTranslatedText(jsonResponse);
+      const results = await Promise.all(
+        selectedCountries.map((country) => {
+          const myBody = {
+            source: "en",
+            target: country.language[0].name,
+            q: textToTranslate,
+            mimeType: "text/plain",
+          };
+          return fetch(GOOGLE_API_LINK, {
+            method: "POST",
+            body: myBody,
+            headers: {
+              key: GOOGLE_API_KEY,
+            },
+          });
+        })
+      );
+
+      console.log(results);
+      // setTranslatedText(jsonResponse);
     } catch (e) {
       console.error(e);
     }
