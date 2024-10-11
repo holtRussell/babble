@@ -1,0 +1,379 @@
+[
+  {
+    "country": "Albania",
+    "language": [
+      {
+        "name": "Albanian",
+        "category": "Indo-Euro-Albanian",
+        "language_abbreviation": "sq"
+      }
+    ],
+    "flag": "https://flagcdn.com/al.svg"
+  },
+  {
+    "country": "Belgium",
+    "language": [
+      {
+        "name": "Dutch",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "nl"
+      },
+      {
+        "name": "French",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "fr"
+      },
+      {
+        "name": "German",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "de"
+      }
+    ],
+    "flag": "https://flagcdn.com/be.svg"
+  },
+  {
+    "country": "Bulgaria",
+    "language": [
+      {
+        "name": "Bulgarian",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "bg"
+      }
+    ],
+    "flag": "https://flagcdn.com/bg.svg"
+  },
+  {
+    "country": "Canada",
+    "language": [
+      {
+        "name": "French",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "fr"
+      },
+      {
+        "name": "English",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "en"
+      }
+    ],
+    "flag": "https://flagcdn.com/ca.svg"
+  },
+  {
+    "country": "Croatia",
+    "language": [
+      {
+        "name": "Croatian",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "hr"
+      }
+    ],
+    "flag": "https://flagcdn.com/hr.svg"
+  },
+  {
+    "country": "Czech Republic",
+    "language": [
+      {
+        "name": "Czech",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "cs"
+      }
+    ],
+    "flag": "https://flagcdn.com/cz.svg"
+  },
+  {
+    "country": "Denmark",
+    "language": [
+      {
+        "name": "Danish",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "da"
+      }
+    ],
+    "flag": "https://flagcdn.com/dk.svg"
+  },
+  {
+    "country": "Estonia",
+    "language": [
+      {
+        "name": "Estonian",
+        "category": "Other",
+        "language_abbreviation": "et"
+      }
+    ],
+    "flag": "https://flagcdn.com/ee.svg"
+  },
+  {
+    "country": "France",
+    "language": [
+      {
+        "name": "French",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "fr"
+      }
+    ],
+    "flag": "https://flagcdn.com/fr.svg"
+  },
+  {
+    "country": "Finland",
+    "language": [
+      {
+        "name": "Finnish",
+        "category": "Other",
+        "language_abbreviation": "fi"
+      }
+    ],
+    "flag": "https://flagcdn.com/fi.svg"
+  },
+  {
+    "country": "Germany",
+    "language": [
+      {
+        "name": "German",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "de"
+      }
+    ],
+    "flag": "https://flagcdn.com/de.svg"
+  },
+  {
+    "country": "Greece",
+    "language": [
+      {
+        "name": "Greek",
+        "category": "Indo-Euro-Other",
+        "language_abbreviation": "el"
+      }
+    ],
+    "flag": "https://flagcdn.com/gr.svg"
+  },
+  {
+    "country": "Hungary",
+    "language": [
+      {
+        "name": "Hungarian",
+        "category": "Other",
+        "language_abbreviation": "hu"
+      }
+    ],
+    "flag": "https://flagcdn.com/hu.svg"
+  },
+  {
+    "country": "Iceland",
+    "language": [
+      {
+        "name": "Icelandic",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "is"
+      }
+    ],
+    "flag": "https://flagcdn.com/is.svg"
+  },
+  {
+    "country": "Italy",
+    "language": [
+      {
+        "name": "Italian",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "it"
+      }
+    ],
+    "flag": "https://flagcdn.com/it.svg"
+  },
+  {
+    "country": "Latvia",
+    "language": [
+      {
+        "name": "Latvian",
+        "category": "Indo-Euro-Baltic",
+        "language_abbreviation": "lv"
+      }
+    ],
+    "flag": "https://flagcdn.com/lv.svg"
+  },
+  {
+    "country": "Lithuania",
+    "language": [
+      {
+        "name": "Lithuanian",
+        "category": "Indo-Euro-Baltic",
+        "language_abbreviation": "lt"
+      }
+    ],
+    "flag": "https://flagcdn.com/lt.svg"
+  },
+  {
+    "country": "Luxembourg",
+    "language": [
+      {
+        "name": "Luxembourgish",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "lb"
+      },
+      {
+        "name": "French",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "fr"
+      },
+      {
+        "name": "German",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "de"
+      }
+    ],
+    "flag": "https://flagcdn.com/lu.svg"
+  },
+  {
+    "country": "Montenegro",
+    "language": [
+      {
+        "name": "Montenegrin",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "cnr"
+      }
+    ],
+    "flag": "https://flagcdn.com/me.svg"
+  },
+  {
+    "country": "Netherlands",
+    "language": [
+      {
+        "name": "Dutch",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "nl"
+      }
+    ],
+    "flag": "https://flagcdn.com/nl.svg"
+  },
+  {
+    "country": "North Macedonia",
+    "language": [
+      {
+        "name": "Macedonian",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "mk"
+      }
+    ],
+    "flag": "https://flagcdn.com/mk.svg"
+  },
+  {
+    "country": "Norway",
+    "language": [
+      {
+        "name": "Norwegian",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "no"
+      }
+    ],
+    "flag": "https://flagcdn.com/no.svg"
+  },
+  {
+    "country": "Poland",
+    "language": [
+      {
+        "name": "Polish",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "pl"
+      }
+    ],
+    "flag": "https://flagcdn.com/pl.svg"
+  },
+  {
+    "country": "Portugal",
+    "language": [
+      {
+        "name": "Portuguese",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "pt"
+      }
+    ],
+    "flag": "https://flagcdn.com/pt.svg"
+  },
+  {
+    "country": "Romania",
+    "language": [
+      {
+        "name": "Romanian",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "ro"
+      }
+    ],
+    "flag": "https://flagcdn.com/ro.svg"
+  },
+  {
+    "country": "Slovakia",
+    "language": [
+      {
+        "name": "Slovak",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "sk"
+      }
+    ],
+    "flag": "https://flagcdn.com/sk.svg"
+  },
+  {
+    "country": "Slovenia",
+    "language": [
+      {
+        "name": "Slovene",
+        "category": "Indo-Euro-Slavic",
+        "language_abbreviation": "sl"
+      }
+    ],
+    "flag": "https://flagcdn.com/si.svg"
+  },
+  {
+    "country": "Spain",
+    "language": [
+      {
+        "name": "Spanish",
+        "category": "Indo-Euro-Romance",
+        "language_abbreviation": "es"
+      }
+    ],
+    "flag": "https://flagcdn.com/es.svg"
+  },
+  {
+    "country": "Sweden",
+    "language": [
+      {
+        "name": "Swedish",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "sv"
+      }
+    ],
+    "flag": "https://flagcdn.com/se.svg"
+  },
+  {
+    "country": "Turkey",
+    "language": [
+      {
+        "name": "Turkish",
+        "category": "Turkic",
+        "language_abbreviation": "tr"
+      }
+    ],
+    "flag": "https://flagcdn.com/tr.svg"
+  },
+  {
+    "country": "United Kingdom",
+    "language": [
+      {
+        "name": "English",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "en"
+      }
+    ],
+    "flag": "https://flagcdn.com/gb.svg"
+  },
+  {
+    "country": "United States",
+    "language": [
+      {
+        "name": "English",
+        "category": "Indo-Euro-Germanic",
+        "language_abbreviation": "en"
+      }
+    ],
+    "flag": "https://flagcdn.com/us.svg"
+  }
+]

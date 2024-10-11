@@ -1,0 +1,139 @@
+[
+  {
+    "language": "Albanian",
+    "category": "Indo-Euro-Albanian",
+    "language_abbreviation": "sq"
+  },
+  {
+    "language": "Bulgarian",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "bg"
+  },
+  {
+    "language": "Croatian",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "hr"
+  },
+  {
+    "language": "Czech",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "cs"
+  },
+  {
+    "language": "Danish",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "da"
+  },
+  {
+    "language": "Dutch",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "nl"
+  },
+  {
+    "language": "English",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "en"
+  },
+  {
+    "language": "Estonian",
+    "category": "Other",
+    "language_abbreviation": "et"
+  },
+  { "language": "Finnish", "category": "Other", "language_abbreviation": "fi" },
+  {
+    "language": "French",
+    "category": "Indo-Euro-Romance",
+    "language_abbreviation": "fr"
+  },
+  {
+    "language": "German",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "de"
+  },
+  {
+    "language": "Greek",
+    "category": "Indo-Euro-Other",
+    "language_abbreviation": "el"
+  },
+  {
+    "language": "Hungarian",
+    "category": "Other",
+    "language_abbreviation": "hu"
+  },
+  {
+    "language": "Icelandic",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "is"
+  },
+  {
+    "language": "Italian",
+    "category": "Indo-Euro-Romance",
+    "language_abbreviation": "it"
+  },
+  {
+    "language": "Latvian",
+    "category": "Indo-Euro-Baltic",
+    "language_abbreviation": "lv"
+  },
+  {
+    "language": "Lithuanian",
+    "category": "Indo-Euro-Baltic",
+    "language_abbreviation": "lt"
+  },
+  {
+    "language": "Luxembourgish",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "lb"
+  },
+  {
+    "language": "Macedonian",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "mk"
+  },
+  {
+    "language": "Montenegrin",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "cnr"
+  },
+  {
+    "language": "Norwegian",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "no"
+  },
+  {
+    "language": "Polish",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "pl"
+  },
+  {
+    "language": "Portuguese",
+    "category": "Indo-Euro-Romance",
+    "language_abbreviation": "pt"
+  },
+  {
+    "language": "Romanian",
+    "category": "Indo-Euro-Romance",
+    "language_abbreviation": "ro"
+  },
+  {
+    "language": "Slovak",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "sk"
+  },
+  {
+    "language": "Slovene",
+    "category": "Indo-Euro-Slavic",
+    "language_abbreviation": "sl"
+  },
+  {
+    "language": "Spanish",
+    "category": "Indo-Euro-Romance",
+    "language_abbreviation": "es"
+  },
+  {
+    "language": "Swedish",
+    "category": "Indo-Euro-Germanic",
+    "language_abbreviation": "sv"
+  },
+  { "language": "Turkish", "category": "Turkic", "language_abbreviation": "tr" }
+]
