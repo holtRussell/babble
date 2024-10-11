@@ -51,7 +51,7 @@ function HomePage() {
     }
     setSelectedCountries(tempList);
   };
-  // Structures JSON for HTTP post Request to OpenAI
+
   const buildOpenaiJsonRequest = async () => {
     const openai = new OpenAI({
       apiKey: OPENAI_API_KEY,
@@ -60,20 +60,22 @@ function HomePage() {
 
     try {
       const results = await Promise.all(
-        selectedCountries.map((country) => {
-          const prompt = `Please translate the following message into ${country.language[0].name}: ${textToTranslate}`;
+        selectedCountries.map(async (c) => {
+          const prompt = `Please translate the following message into ${c.language[0].name}: ${textToTranslate}`;
           const messages = [{ role: "user", content: prompt }];
-
-          return openai.chat.completions.create({
+          const response = await openai.chat.completions.create({
             model: OPENAI_API_MODEL,
             messages,
           });
+          return { country: c.country, language: c.language[0].name, response };
         })
       );
 
-      // for now, I'll just print the response. Later, I'll return it to an array in a builder function.
-      console.log(results);
-      // setTranslatedText(aiResponse);
+      const simpleResults = results.map((result) => {
+        result.response = result.response.choices[0].message.content;
+        return result;
+      });
+      console.log(simpleResults);
     } catch (e) {
       console.error(e);
     }
@@ -207,6 +209,7 @@ function HomePage() {
             <Button
               variant="contained"
               onClick={getGoogleTranslation}
+              disabled
               fullWidth
             >
               Translate w/ Google
